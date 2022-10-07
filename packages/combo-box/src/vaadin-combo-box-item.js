@@ -44,7 +44,7 @@ export class ComboBoxItem extends ThemableMixin(DirMixin(PolymerElement)) {
           display: none;
         }
       </style>
-      <span part="checkmark" aria-hidden="true"></span>
+      
       <div part="content">
         <slot></slot>
       </div>
